@@ -1,0 +1,429 @@
+@article{gulshan2016development,
+  author    = {Gulshan, Varun and Peng, Lily and Coram, Marc and Stumpe, Martin C and Wu, Derek and Narayanaswamy, Arunachalam and Venugopalan, Subhashini and Widner, Kasumi and Madams, Tom and Cuadros, Jorge and others},
+  title     = {Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs},
+  journal   = {JAMA},
+  volume    = {316},
+  number    = {22},
+  pages     = {2402--2410},
+  year      = {2016}
+}
+
+@article{orlando2018towards,
+  author    = {Orlando, Jos{\'e} Ignacio and Prokofyeva, Elena and del Fresno, Mariana and Blaschko, Matthew B},
+  title     = {Towards a glaucoma risk index based on simulated hemodynamics from fundus images},
+  journal   = {Medical Image Computing and Computer Assisted Intervention},
+  pages     = {65--73},
+  year      = {2018}
+}
+
+@article{staal2004ridge,
+  author    = {Staal, Joes and Abr{\`a}moff, Michael D and Niemeijer, Meindert and Viergever, Max A and Van Ginneken, Bram},
+  title     = {Ridge-based vessel segmentation in color images of the retina},
+  journal   = {IEEE Transactions on Medical Imaging},
+  volume    = {23},
+  number    = {4},
+  pages     = {501--509},
+  year      = {2004}
+}
+
+@inproceedings{ganin2015unsupervised,
+  author    = {Ganin, Yaroslav and Lempitsky, Victor},
+  title     = {Unsupervised domain adaptation by backpropagation},
+  booktitle = {International Conference on Machine Learning},
+  pages     = {1180--1189},
+  year      = {2015}
+}
+
+@inproceedings{cugu2022attention,
+  author    = {Cugu, Ilker and Mancini, Massimiliano and Chen, Yiyao and Akata, Zeynep},
+  title     = {Attention consistency on visual corruptions for single-source domain generalization},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages     = {4165--4174},
+  year      = {2022}
+}
+
+@article{ouyang2023causality,
+  author    = {Ouyang, Cheng and Biffi, Chiara and Rueckert, Daniel},
+  title     = {Causality-inspired single-source domain generalization for medical image segmentation},
+  journal   = {IEEE Transactions on Medical Imaging},
+  volume    = {42},
+  number    = {4},
+  pages     = {1095--1106},
+  year      = {2023}
+}
+
+@article{hu2022domain,
+  author    = {Hu, Shishun and Liao, Zhibin and Zhang, Jianning and Xia, Yong},
+  title     = {Domain and content adaptive convolution based multi-source domain generalization for medical image segmentation},
+  journal   = {IEEE Transactions on Medical Imaging},
+  volume    = {42},
+  number    = {1},
+  pages     = {233--244},
+  year      = {2022}
+}
+
+@inproceedings{xu2021fourier,
+  author    = {Xu, Yufan and Du, Tianjiao and Zhang, Zhe and Li, Na and Chen, Hao and Yang, Yong},
+  title     = {Fourier domain adaptation for semantic segmentation},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages     = {4085--4095},
+  year      = {2021}
+}
+
+@article{li2023frequency,
+  author    = {Li, Haojin and Li, Heng and Zhang, Yuexiang and Li, Hongshan and Chen, Jin and Pan, Feihong and Chen, Jiawei and Liu, Jiang},
+  title     = {Frequency-mixed single-source domain generalization for medical image segmentation},
+  journal   = {arXiv preprint arXiv:2307.02100},
+  year      = {2023}
+}
+
+@article{srivastava2014dropout,
+  author    = {Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan},
+  title     = {Dropout: a simple way to prevent neural networks from overfitting},
+  journal   = {The Journal of Machine Learning Research},
+  volume    = {15},
+  number    = {1},
+  pages     = {1929--1958},
+  year      = {2014}
+}
+
+@article{inoue2019multi,
+  author    = {Inoue, Hiroshi},
+  title     = {Multi-sample dropout for accelerated training and better generalization},
+  journal   = {arXiv preprint arXiv:1905.09788},
+  year      = {2019}
+}
+
+@article{litjens2017survey,
+  author    = {Litjens, Geert and Kooi, Thijs and Bejnordi, Babak Ehteshami and Setio, Arnaud Arindra Adiyoso and Ciompi, Francesco and Ghafoorian, Mohsen and van der Laak, Jeroen AWM and van Ginneken, Bram and S{\'a}nchez, Clara I},
+  title     = {A survey on deep learning in medical image analysis},
+  journal   = {Medical Image Analysis},
+  volume    = {42},
+  pages     = {60--88},
+  year      = {2017}
+}
+
+@article{hesamian2019deep,
+  author    = {Hesamian, Mohammad Hadi and Jia, Wenjing and He, Xiangjian and Kennedy, Paul},
+  title     = {Deep learning techniques for medical image segmentation: achievements and challenges},
+  journal   = {Journal of Digital Imaging},
+  volume    = {32},
+  pages     = {582--596},
+  year      = {2019}
+}
+
+@article{nie2016medical,
+  author    = {Nie, Dong and Wang, Li and Gao, Yaozong and Shen, Dinggang},
+  title     = {Medical image segmentation with deep learning: a survey},
+  journal   = {arXiv preprint arXiv:2009.13120},
+  year      = {2016}
+}
+
+@article{lam2018retinal,
+  author    = {Lam, Ching and Yi, Daniel and Guo, Meng and Lindsey, Thomas},
+  title     = {Retinal vessel detection using deep neural networks},
+  journal   = {IEEE Transactions on Biomedical Engineering},
+  volume    = {64},
+  number    = {9},
+  pages     = {2189--2196},
+  year      = {2018}
+}
+
+@inproceedings{ronneberger2015unet,
+  author    = {Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas},
+  title     = {U-Net: Convolutional networks for biomedical image segmentation},
+  booktitle = {International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages     = {234--241},
+  year      = {2015}
+}
+
+@article{oktay2018attention,
+  author    = {Oktay, Ozan and Schlemper, Jo and Folgoc, Loic Le and Lee, Matthew and Heinrich, Mattias and Misawa, Kazunari and Mori, Kensaku and McDonagh, Steven and Hammerla, Nils Y and others},
+  title     = {Attention U-Net: Learning where to look for the pancreas},
+  journal   = {arXiv preprint arXiv:1804.03999},
+  year      = {2018}
+}
+
+@article{huang2017densely,
+  author    = {Huang, Gao and Liu, Zhuang and Van Der Maaten, Laurens and Weinberger, Kilian Q},
+  title     = {Densely connected convolutional networks},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages     = {4700--4708},
+  year      = {2017}
+}
+
+@inproceedings{he2016deep,
+  author    = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  title     = {Deep residual learning for image recognition},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages     = {770--778},
+  year      = {2016}
+}
+
+@article{badrinarayanan2017segnet,
+  author    = {Badrinarayanan, Vijay and Kendall, Alex and Cipolla, Roberto},
+  title     = {SegNet: A deep convolutional encoder-decoder architecture for image segmentation},
+  journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume    = {39},
+  number    = {12},
+  pages     = {2481--2495},
+  year      = {2017}
+}
+
+@article{chen2017deeplab,
+  author    = {Chen, Liang-Chieh and Papandreou, George and Kokkinos, Iasonas and Murphy, Kevin and Yuille, Alan L},
+  title     = {DeepLab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs},
+  journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume    = {40},
+  number    = {4},
+  pages     = {834--848},
+  year      = {2017}
+}
+
+@inproceedings{ganin2016domain,
+  author    = {Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hana and Germain, Pascal and Larochelle, Hugo and Laviolette, Fran{\c{c}}ois and Marchand, Mario and Lempitsky, Victor},
+  title     = {Domain-adversarial training of neural networks},
+  booktitle = {The Journal of Machine Learning Research},
+  volume    = {17},
+  number    = {1},
+  pages     = {2096--2030},
+  year      = {2016}
+}
+
+@inproceedings{tzeng2017adversarial,
+  author    = {Tzeng, Eric and Hoffman, Judy and Saenko, Kate and Darrell, Trevor},
+  title     = {Adversarial discriminative domain adaptation},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages     = {7167--7176},
+  year      = {2017}
+}
+
+@inproceedings{finn2017model,
+  author    = {Finn, Chelsea and Abbeel, Pieter and Levine, Sergey},
+  title     = {Model-agnostic meta-learning for fast adaptation of deep networks},
+  booktitle = {International Conference on Machine Learning},
+  pages     = {1126--1135},
+  year      = {2017}
+}
+
+@inproceedings{dou2019domain,
+  author    = {Dou, Qi and Castro, Daniel Coelho de and Kamnitsas, Konstantinos and Glocker, Ben},
+  title     = {Domain generalization via model-agnostic learning of semantic features},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {32},
+  year      = {2019}
+}
+
+@article{zhang2017mixup,
+  author    = {Zhang, Hongyi and Cisse, Moustapha and Dauphin, Yann N and Lopez-Paz, David},
+  title     = {mixup: Beyond empirical risk minimization},
+  journal   = {arXiv preprint arXiv:1710.09412},
+  year      = {2017}
+}
+
+@inproceedings{yun2019cutmix,
+  author    = {Yun, Sangdoo and Han, Dongyoon and Oh, Seong Joon and Chun, Sanghyuk and Choe, Junsuk and Yoo, Youngjoon},
+  title     = {CutMix: Regularization strategy to train strong classifiers with localizable features},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages     = {6023--6032},
+  year      = {2019}
+}
+
+@inproceedings{cubuk2019autoaugment,
+  author    = {Cubuk, Ekin D and Zoph, Barret and Mane, Dandelion and Vasudevan, Vijay and Le, Quoc V},
+  title     = {AutoAugment: Learning augmentation policies from data},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages     = {113--123},
+  year      = {2019}
+}
+
+@article{ioffe2015batch,
+  author    = {Ioffe, Sergey and Szegedy, Christian},
+  title     = {Batch normalization: Accelerating deep network training by reducing internal covariate shift},
+  journal   = {International Conference on Machine Learning},
+  pages     = {448--456},
+  year      = {2015}
+}
+
+@inproceedings{szegedy2016rethinking,
+  author    = {Szegedy, Christian and Vanhoucke, Vincent and Ioffe, Sergey and Shlens, Jon and Wojna, Zbigniew},
+  title     = {Rethinking the inception architecture for computer vision},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages     = {2818--2826},
+  year      = {2016}
+}
+
+@inproceedings{li2024fd,
+  author    = {Li, Haojin and Li, Heng and Zhang, Yuexiang and Li, Hongshan and Chen, Jin and Pan, Feihong and Chen, Jiawei and Liu, Jiang},
+  title     = {FD-SDG: Frequency Dropout based Single Source Domain Generalization Framework for Retinal Vessel Segmentation},
+  booktitle = {International Conference on Intelligent Computing},
+  pages     = {393--404},
+  year      = {2024}
+}
+
+@article{li2024raffe,
+  author    = {Li, Heng and Li, Haojin and Chen, Jin and Qiu, Zhenghan and Fu, Huazhu and Wang, Liansheng and Hu, Yan and Liu, Jiang},
+  title     = {RAFFE-SDG: Random Frequency Filtering Enabled Single-Source Domain Generalization for Medical Image Segmentation},
+  journal   = {IEEE Transactions on Medical Imaging},
+  year      = {2024}
+}
+
+@article{fraz2012blood,
+  author    = {Fraz, Muhammad Moazam and Remagnino, Paolo and Hoppe, Andreas and Uyyanonvara, Bunyarit and Rudnicka, Alicja R and Owen, Christopher G and Barman, Sarah A},
+  title     = {Blood vessel segmentation methodologies in retinal images: a survey},
+  journal   = {Computer Methods and Programs in Biomedicine},
+  volume    = {108},
+  number    = {1},
+  pages     = {407--433},
+  year      = {2012}
+}
+
+@article{zhang2016robust,
+  author    = {Zhang, Jiong and Dashtbozorg, Behdad and Bekkers, Erik and Pluim, Josien PW and Duits, Remco and ter Haar Romeny, Bart M},
+  title     = {Robust retinal vessel segmentation via locally adaptive derivative frames in orientation scores},
+  journal   = {IEEE Transactions on Medical Imaging},
+  volume    = {35},
+  number    = {12},
+  pages     = {2631--2644},
+  year      = {2016}
+}
+
+@article{owen2011retinal,
+  author    = {Owen, Christopher G and Rudnicka, Alicja R and Nightingale, Claire M and Mullen, Richard and Barman, Sarah A and Sattar, Naveed and Cook, Derek G and Whincup, Peter H},
+  title     = {Retinal arteriolar tortuosity and cardiovascular risk factors in a multi-ethnic population study of 10-year-old children; the child heart and health study in England (CHASE)},
+  journal   = {Arteriosclerosis, Thrombosis, and Vascular Biology},
+  volume    = {31},
+  number    = {8},
+  pages     = {1933--1938},
+  year      = {2011}
+}
+
+@inproceedings{soomro2019deep,
+  author    = {Soomro, Tahir A and Afifi, Ahmed J and Zheng, Lihong and Soomro, Shafiullah and Gao, Junbin and Hellwich, Olaf and Paul, Manoranjan},
+  title     = {Deep learning models for retinal blood vessels segmentation: a review},
+  booktitle = {IEEE Access},
+  volume    = {7},
+  pages     = {14260--14272},
+  year      = {2019}
+}
+
+@article{ma2021loss,
+  author    = {Ma, Jun and Chen, Jianan and Ng, Ming and Huang, Rui and Li, Yali and Li, Chen and Yang, Xiaoping and Martel, Anne L},
+  title     = {Loss odyssey in medical image segmentation},
+  journal   = {Medical Image Analysis},
+  volume    = {71},
+  pages     = {102035},
+  year      = {2021}
+}
+
+@article{milletari2016vnet,
+  author    = {Milletari, Fausto and Navab, Nassir and Ahmadi, Seyed-Ahmad},
+  title     = {V-Net: Fully convolutional neural networks for volumetric medical image segmentation},
+  booktitle = {2016 Fourth International Conference on 3D Vision (3DV)},
+  pages     = {565--571},
+  year      = {2016}
+}
+
+@article{taghanaki2019deep,
+  author    =={Taghanaki, Saeed Asgari and Zheng, Yefeng and Kevin Zhou, S and Georgescu, Bogdan and Sharma, Puneet and Xu, Daguang and Comaniciu, Dorin and Hamarneh, Ghassan},
+  title     = {Deep semantic segmentation of natural and medical images: a review},
+  journal   = {Artificial Intelligence Review},
+  volume    = {54},
+  pages     = {137--178},
+  year      = {2021}
+}
+
+@inproceedings{kingma2014adam,
+  author    = {Kingma, Diederik P and Ba, Jimmy},
+  title     = {Adam: A method for stochastic optimization},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2014}
+}
+
+@article{liu2021feddg,
+  author    = {Liu, Quande and Chen, Cheng and Qin, Jing and Dou, Qi and Heng, Pheng-Ann},
+  title     = {FedDG: Federated domain generalization on medical image segmentation via episodic learning in continuous frequency space},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages     = {1013--1023},
+  year      = {2021}
+}
+
+@inproceedings{shu2024csca,
+  author    = {Shu, Haoyu and Li, Heng and Li, Haojin and Chen, Jin and Liu, Jiang},
+  title     = {CSCA: Cross-modal Shape-Consistent Attention for Medical Image Segmentation},
+  booktitle = {International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  year      = {2024}
+}
+
+@article{goodfellow2014generative,
+  author    = {Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+  title     = {Generative adversarial nets},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {27},
+  year      = {2014}
+}
+
+@article{carlucci2019domain,
+  author    = {Carlucci, Fabio Maria and D'Innocente, Antonio and Bucci, Silvia and Caputo, Barbara and Tommasi, Tatiana},
+  title     = {Domain generalization by solving jigsaw puzzles},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages     = {2229--2238},
+  year      = {2019}
+}
+
+@article{cubuk2020randaugment,
+  author    = {Cubuk, Ekin D and Zoph, Barret and Shlens, Jon and Le, Quoc V},
+  title     = {RandAugment: Practical automated data augmentation with a reduced search space},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages     = {702--703},
+  year      = {2020}
+}
+
+@article{hendrycks2020augmix,
+  author    = {Hendrycks, Dan and Mu, Norman and Cubuk, Ekin D and Zoph, Barret and Gilmer, Justin and Lakshminarayanan, Balaji},
+  title     = {AugMix: A simple data processing method to improve robustness and uncertainty},
+  journal   = {Proceedings of the International Conference on Learning Representations},
+  year      = {2020}
+}
+
+@article{hinton2012improving,
+  author    = {Hinton, Geoffrey E and Srivastava, Nitish and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan R},
+  title     = {Improving neural networks by preventing co-adaptation of feature detectors},
+  journal   = {arXiv preprint arXiv:1207.0580},
+  year      = {2012}
+}
+
+@article{yang2020fda,
+  author    = {Yang, Yanchao and Soatto, Stefano},
+  title     = {FDA: Fourier domain adaptation for semantic segmentation},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages     = {4085--4095},
+  year      = {2020}
+}
+
+@inproceedings{isensee2021nnu,
+  author    = {Isensee, Fabian and Jaeger, Paul F and Kohl, Simon AA and Petersen, Jens and Maier-Hein, Klaus H},
+  title     = {nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation},
+  booktitle = {Nature Methods},
+  volume    = {18},
+  number    = {2},
+  pages     = {203--211},
+  year      = {2021}
+}
+
+@article{hoover2000locating,
+  author    = {Hoover, Adam and Kouznetsova, Valentina and Goldbaum, Michael},
+  title     = {Locating blood vessels in retinal images by piecewise threshold probing of a matched filter response},
+  journal   = {IEEE Transactions on Medical Imaging},
+  volume    = {19},
+  number    = {3},
+  pages     = {203--210},
+  year      = {2000}
+}
+
+@article{azad2022medical,
+  author    = {Azad, Reza and Aghdam, Ehsan Khodapanah and Rauland, Amar and Jia, Yi and Avval, Afshin Bozorgpour and Bozorgpour, Arian and Chen, Jing and Roth, Pascal and Merhof, Dorit and Bagci, Ulas},
+  title     = {Medical image segmentation review: The success of U-Net},
+  journal   = {arXiv preprint arXiv:2211.14830},
+  year      = {2022}
+}
