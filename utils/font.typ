@@ -19,8 +19,8 @@
 )
 
 #let FONTS = (
-  宋体: ("Times New Roman", "SimSun", "Source Han Serif SC", "Source Han Serif", "Noto Serif CJK SC", "Songti SC", "STSongti"),
-  黑体: ("Times New Roman", "SimHei", "Source Han Sans SC", "Source Han Sans", "Noto Sans CJK SC", "Heiti SC", "STHeiti"),
-  楷体: ("Times New Roman", "KaiTi", "Kaiti SC", "STKaiti", "FZKai-Z03S"),
+  宋体: ("Times New Roman", "Source Han Serif SC", "Source Han Serif", "Songti SC", "STSong"),
+  黑体: ("Times New Roman", "Source Han Sans SC", "Source Han Sans", "Heiti SC", "STHeiti"),
+  楷体: ("Times New Roman", "Kaiti SC", "STKaiti"),
   TNR: ("Times New Roman"),
 )

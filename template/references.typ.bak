@@ -11,7 +11,7 @@
         #heading(
           level: 1,
           numbering: none,
-          "参考文献"
+          "References"
         )
         #v(-20pt)
       ]
@@ -19,7 +19,7 @@
         font: FONTS.黑体,
         size: FSIZE.三号,
         weight: "bold",
-        "参考文献"
+        "References"
       )
     ]
     align(left)[
@@ -32,7 +32,7 @@
       #bibliography(
         bibPath,
         title: none,
-        style: "gb-7714-2005-numeric"
+        style: "ieee"
       )
     ]
   }

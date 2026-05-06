@@ -1,1 +1,4 @@
 */*.ttc
+.DS_Store
+*.log
+*.pdf

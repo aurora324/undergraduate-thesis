@@ -38,6 +38,7 @@
 		justify: true,
 	)
 	#set figure(gap: 1.2em)
+		#show cite: set text(size: 0.75em, baseline: 0.5em)
 	// 图片样式
 	#show figure.caption: it => {
 		set text(
@@ -68,10 +69,12 @@
 				font: "Times New Roman",
 				size: FSIZE.五号,
 			)
-			#counter(page).display()
+				#if state("show-page-number", false).get() {
+					counter(page).display()
+				}
 		]
 	)
 	// Formula Style
-	#set math.equation(numbering: num => "(" + (counter(heading).get() + (num,)).map(str).join(".") + ")")
+	#set math.equation(numbering: "(1)")
 	#body
 ]

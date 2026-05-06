@@ -1,0 +1,44 @@
+Skills from `openai/skills` `skills/.curated`:
+
+1. `aspnet-core`
+2. `chatgpt-apps`
+3. `cli-creator`
+4. `cloudflare-deploy`
+5. `figma-code-connect-components`
+6. `figma-create-design-system-rules`
+7. `figma-create-new-file`
+8. `figma-generate-design`
+9. `figma-generate-library`
+10. `figma-implement-design`
+11. `figma-use`
+12. `figma`
+13. `gh-address-comments`
+14. `gh-fix-ci`
+15. `hatch-pet`
+16. `jupyter-notebook`
+17. `linear`
+18. `migrate-to-codex`
+19. `netlify-deploy`
+20. `notion-knowledge-capture`
+21. `notion-meeting-intelligence`
+22. `notion-research-documentation`
+23. `notion-spec-to-implementation`
+24. `openai-docs`
+25. `pdf` (already installed)
+26. `playwright-interactive`
+27. `playwright`
+28. `render-deploy`
+29. `screenshot`
+30. `security-best-practices`
+31. `security-ownership-map`
+32. `security-threat-model`
+33. `sentry`
+34. `speech`
+35. `transcribe`
+36. `vercel-deploy`
+37. `winui-app`
+38. `yeet`
+
+Source: https://github.com/openai/skills/tree/main/skills/.curated
+
+The local helper script failed because DNS/network access is blocked in this sandbox, so I used the GitHub listing and checked local installed skills from `$CODEX_HOME/skills`. Which ones would you like installed?

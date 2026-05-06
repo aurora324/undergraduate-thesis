@@ -8,13 +8,13 @@
     thesis_id: "20250328",
     confidentiality_level: "公开",
     udc: "UDC",
-    title: ("面向单源域眼底图像的","频带重要性感知⾎管分割⽅法"),
+    title: ("面向单源域眼底图像的","频带重要性感知血管分割方法"),
     subtitle: "",
     author: "王禀钦",
     student_id: "12210723",
     department: "计算机科学与工程系",
     major: "计算机科学与技术",
-    supervisor: "刘江",
+    supervisor: "刘江 教授",
     submit_date: datetime.today(),
 )
 
@@ -22,15 +22,17 @@
   clc: "CLC",
     thesis_id: "20250328",
     udc: "UDC",
-    title: ("BIRF-SDG: Band Importance","Aware Random Frequency Filter","Based Single-Source Domain","Generalization for Retinal","Vessel Segmentation"),
+    title: ("Band Importance-Aware Vessel", "Segmentation for Single-Source"," Domain Generalization","in Retinal Fundus Images"),
     subtitle: "",
     author: "Bingqin Wang",
     student_id: "12210723",
     department: "Computer Science and Engineering",
     major: "Computer Science and Technology",
-    supervisor: "Jiang Liu",
+    supervisor: "Professor Jiang Liu",
     submit_date: datetime.today(),
 )
+
+#set page(numbering: none)
 
 #cover(
   en: false,
@@ -58,6 +60,7 @@
   print_date: none
 )
 
+#state("show-page-number", false).update(true)
 #set page(numbering: "I")
 #counter(page).update(1)
 
@@ -119,6 +122,6 @@ Single-source domain generalization (SDG) is used to improve model's performance
 
 // #include "sections/appendix.typ"
 
-#acknowledgement(show_both: true)[
+#acknowledgement(show_both: false)[
 首先，我要衷心感谢我的导师刘江教授。从论文选题到实验设计，从理论推导到论文撰写，刘老师始终给予我悉心的指导和宝贵的建议。刘老师严谨的治学态度、深厚的学术造诣和对学生无私的关怀，让我受益匪浅，这将是我未来学术道路上的宝贵财富。感谢课题组的所有老师和同学们。特别感谢实验室的师兄师姐们在研究过程中给予的帮助和指导，感谢同门们在讨论中提供的启发和建议。与大家的交流让我开阔了视野，也收获了珍贵的友谊。感谢南方科技大学计算机科学与工程系提供的优质学习环境和科研资源。感谢学校图书馆和计算中心提供的便利条件，为本研究的顺利开展提供了有力保障。最后，我要特别感谢我自己。感谢自己在面对困难时的坚持，在无数个深夜里调试代码、修改论文的付出。感谢自己保持对科研的热情，不断学习和探索。这段毕设经历让我成长了许多，也让我更加坚定了未来的方向。再次感谢所有帮助过我的人！
 ]

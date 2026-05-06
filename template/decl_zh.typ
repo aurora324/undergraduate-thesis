@@ -16,7 +16,7 @@
     ))
     \
     #v(1.8em)
-    #text("诚信承诺",size: FSIZE.二号,font: FONTS.黑体, weight: "bold")
+    #text("诚信承诺书",size: FSIZE.二号,font: FONTS.黑体, weight: "bold")
     #v(3em)
   ]
 
