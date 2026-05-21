@@ -38,7 +38,7 @@
 		justify: true,
 	)
 	#set figure(gap: 1.2em)
-		#show cite: set text(size: 0.75em, baseline: 0.5em)
+		#show cite: set text(size: 0.75em, baseline: -0.5em)
 	// 图片样式
 	#show figure.caption: it => {
 		set text(
