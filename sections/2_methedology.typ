@@ -104,7 +104,6 @@ $ p(b_i) = "softmax"(-s_v (b_i)) $
   caption: [随机频带滤波模块示意图。模型根据结构评分和分割评分区分关键频带与非关键频带，并在可丢弃频带集合中随机生成滤波掩码，最终重建增强图像。],
 ) <fig-random-filter>
 
-@fig-random-filter 展示了随机滤波概率、可丢弃频带集合和增强图像重建之间的关系。
 
 == 分割网络整体结构
 
@@ -124,6 +123,7 @@ $ p(b_i) = "softmax"(-s_v (b_i)) $
 设 $y$ 为真实血管标签，$hat(y)$ 为输入图像 $x$ 的预测分割结果，分割分支采用交叉熵损失进行优化：
 
 $ cal(L)_("seg") = - sum(y log(hat(y)) + (1 - y) log(1 - hat(y))) $
+
 
 高频分支则通过约束解码结果与高频成分之间的差异来学习边界特征：
 
@@ -145,12 +145,6 @@ BIRF-SDG 的训练流程如算法 1 所示。整体过程先建立稳定分割�
   image("../images/train.png", width: 95%),
   caption: [BIRF-SDG训练流程示意图。训练过程分为预热阶段和增强阶段：前20个epoch仅使用原始图像训练，后30个epoch引入频带评分、随机滤波和多流网络联合优化。],
 ) <fig-training-procedure>
-
-算法 1：BIRF-SDG 训练算法
-
-输入：源域数据集 $cal(D)_s$，频带数量 $n$，超参数 $alpha, beta$
-
-输出：训练好的模型 $f_theta$
 
 首先初始化网络参数 $theta$ 和频带评分模块。对于每个训练批次 $(x, y)$，将图像转换到频域 $X = cal(F)(x)$，计算各频带的结构评分 $s_s$ 与分割评分 $s_v$，并确定可丢弃频带集合 $D = {b_i | s_s (b_i) < "mean"(s_s)}$。随后根据 $p(b_i) = "softmax"(-s_v (b_i))$ 采样滤波掩码 $m_D$，生成增强图像 $x_("aug") = cal(F)^(-1)(X dot m_D)$。模型前向传播得到分割结果 $hat(y)$ 和高频重建结果 $H$，再根据总损失 $cal(L) = cal(L)_("seg") + beta dot cal(L)_("bdr")$ 反向更新参数 $theta$。训练完成后返回模型 $f_theta$。
 

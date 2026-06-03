@@ -14,7 +14,7 @@
     student_id: "12210723",
     department: "计算机科学与工程系",
     major: "计算机科学与技术",
-    supervisor: "刘江 教授",
+    supervisor: "刘江 讲席教授",
     submit_date: datetime.today(),
 )
 
@@ -40,11 +40,11 @@
   info: info,
 )
 
-#cover(
-  en: true,
-  anonymous:false,
-  info: info_en,
-)
+// #cover(
+//   en: true,
+//   anonymous:false,
+//   info: info_en,
+// )
 
 #declare(
   en: false,
@@ -54,11 +54,11 @@
 
 // Please disable EN declaration form to match Word template in Chinese
 // Do this by commenting out the following invocation
-#declare(
-  en: true,
-  anonymous: false,
-  print_date: none
-)
+// #declare(
+//   en: true,
+//   anonymous: false,
+//   print_date: none
+// )
 
 #state("show-page-number", false).update(true)
 #set page(numbering: "I")

@@ -11,11 +11,11 @@
     columns: (1fr, 1fr),
     gutter: 8pt,
     [
-      #image("../images/Unet.png", width: 100%)
+      #image("../images/Unet.png", width: 80%)
       #align(center)[(a) U-Net]
     ],
     [
-      #image("../images/Attention unet.png", width: 100%)
+      #image("../images/Attention unet.png", width: 115%)
       #align(center)[(b) Attention U-Net]
     ],
   ),

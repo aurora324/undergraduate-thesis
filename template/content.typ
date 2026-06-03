@@ -21,6 +21,6 @@
     strong(it)
   }
 
-  outline(title: none)
+  outline(title: none, indent: 0pt)
 
 }
